@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body{
     width: 80%;
     margin: auto;
@@ -46,8 +50,8 @@ a{
 
 .button{
     text-align: center;
-    height: 40px;
-    width: 100px;
+    height: 45px;
+    width: 125px;
     color: aliceblue;
     background-color: #ef233c;
     padding: 7px;
@@ -58,8 +62,7 @@ a{
 }
 
 .button a:hover{
-    background-color: #ef233c;
-    color: white;
+    text-decoration: underline;
 }
 
 .nav{
@@ -118,3 +121,34 @@ footer p{
     padding-top: 220px;
 }
 
+.features{
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.feature{
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.feature2{
+    display: inline-block;
+}
+
+.features p{
+    width: 50%;
+}
+
+.feature p{
+    width: auto;
+}
+
+.featureimg{
+    width: 50%;
+}
