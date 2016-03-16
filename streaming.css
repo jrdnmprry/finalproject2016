@@ -184,7 +184,26 @@ picreel{
 .picreelimg{
 }
 
-.pricebutton{
-    margin-top: 50px;
-    margin-bottom: 80px;
+.floatbutton{
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+
+.prices{
+    border: solid black 3px;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    float: left;
+    padding-top: 80px;
+}
+
+.price{
+    
+}
+
+.package{
+    margin: 0;
 }
