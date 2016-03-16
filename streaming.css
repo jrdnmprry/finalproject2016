@@ -37,9 +37,13 @@ header a{
     color: black;
 }
 
+footer a{
+    color: black;
+}
+
 .signup p{
     text-align: center;
-    color: #8d99ae;
+    color: #9f2042;
     margin: auto;
     width: 40%;
     top: 0;
@@ -51,7 +55,7 @@ header a{
     text-align: center;
     margin: auto;
     width: 50%;
-    color: #8d99ae;
+    color: #9f2042;
 }
 
 .button{
@@ -97,7 +101,7 @@ footer p{
 }
 
 .navitem{
-    float: right;
+    float: left;
     text-decoration: none;
     color: #edf2f4;
     margin: 10px;
